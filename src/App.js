@@ -4,14 +4,14 @@ function Header() {
   return (
     <div class="header">
       <h1>Notes App</h1>
-      <p class="app-info">Quick notes</p>
+      <h3>Quick notes</h3>
     </div>
   );
 }
 
 function Notes() {
   return (
-    <div class="notes">
+    <div class="notes" contenteditable="true">
       <div id="quick-notes">Click and edit</div>
     </div>
   );
