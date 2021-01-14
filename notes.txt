@@ -1,4 +1,9 @@
-npx create-react-app notes-app
+How to create the react app:
+  npx create-react-app notes-app
+
+How to set gh-pages:
+  https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f/comments
+  https://stackoverflow.com/questions/55935360/react-app-deployed-to-github-pages-gives-site-not-found
 
 npm start
 
