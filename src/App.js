@@ -8,10 +8,29 @@ function Header() {
     </div>
   );
 }
+
+function Notes() {
+  return (
+    <div class="notes">
+      <div id="quick-notes">Click and edit</div>
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <div class="footer">
+      <p>Just for fun.</p>
+    </div>
+  );
+}
+
 function App() {
   return (
     <div className="App">
       <Header />
+      <Notes />
+      <Footer />
     </div>
   );
 }
